@@ -1,0 +1,66 @@
+$backgroundColor: white;
+
+@media screen and (min-width: 1401px) {
+  html {
+  }
+}
+
+@media screen and (max-width: 768px) {
+  html {
+    font-size: 10px !important;
+  }
+  .location-top-header {
+    margin-left: 10px !important;
+  }
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background: $backgroundColor;
+  font-family: "OpenSansRegular", "Arial", sans-serif;
+  color: black;
+}
+
+li {
+  list-style: none;
+}
+
+h2 {
+  font-weight: normal;
+}
+
+.App {
+  margin: 20px;
+}
+
+.container {
+  max-width: 1920px;
+  min-width: 800px;
+  margin: 0 auto;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.header-site {
+  background-color: $backgroundColor;
+}
+
+.middle-site {
+  background-color: $backgroundColor;
+
+  .middle-home {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+.middle__row__cart .MuiTableCell-body {
+  border: 0;
+}
